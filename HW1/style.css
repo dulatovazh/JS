@@ -1,0 +1,37 @@
+body {
+    color: black;
+}
+.container {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hamster {
+    display: flex;
+    flex-direction: column;
+}
+#coin, #energy   {
+    width: 80px;
+    height: 80px;
+}
+span {
+    font-size: 60px;
+    font-weight: bold;
+}
+.coin, .power {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+button {
+    border-radius: 100%;
+    border: none;
+}
+#hamster {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: blue solid 15px;
+}
